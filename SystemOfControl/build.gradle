@@ -1,0 +1,10 @@
+apply plugin: 'java'
+apply plugin: 'application'
+
+mainClassName = 'tasks.Main'
+
+run{
+standardInput = System.in
+}
+
+
